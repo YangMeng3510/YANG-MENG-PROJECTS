@@ -10,18 +10,6 @@ A responsive portfolio website featuring four design-research projects. The site
 - `urban-regeneration.html` — The Self-Organizing Regeneration of Urban Areas (2022)
 - `heming-regeneration.html` — Heming Regeneration: AI Large-Scale Guzheng Design (2023)
 
-## Run locally
-
-Open `index.html` directly in a browser, or start a local server from this folder:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit <http://localhost:8000>.
-
-All images are bundled under `assets/`, so the site does not depend on externally hosted images, fonts, or scripts.
-
 ## File structure
 
 - `site.css` — shared cover, navigation, and layout styles
@@ -29,6 +17,8 @@ All images are bundled under `assets/`, so the site does not depend on externall
 - `pocket.css` and `fictional.css` — project-specific styles
 - `bachelor.js`, `pocket.js` — project interactions
 - `assets/` — project images and diagrams
+
+All images are bundled under `assets/`, so the site does not depend on externally hosted images, fonts, or scripts.
 
 The written content is editable directly in the corresponding HTML files. Some labels inside source diagrams remain part of the original image artwork, while the surrounding headings, descriptions, captions, and research content are selectable HTML.
 
