@@ -1,0 +1,158 @@
+/* Undergraduate projects — native HTML typography and individual original graphics */
+.bachelor-page{--bachelor-ink:#121212;--bachelor-border:#d3d3d3;font-family:Arial,Helvetica,sans-serif;font-size:clamp(14px,1vw,16px);line-height:1.52}
+.bachelor-page .global-header,.bachelor-page .global-footer,.bachelor-page .next-project{font-family:Arial,Helvetica,sans-serif}
+.bachelor-page h1,.bachelor-page h2,.bachelor-page h3{font-family:"Nimbus Sans Narrow","Arial Narrow","Liberation Sans Narrow",Arial,sans-serif;letter-spacing:-.025em}
+.bachelor-opening{max-width:1920px;margin:auto;padding:45px clamp(20px,3.4vw,64px) 0}
+.opening-title{position:relative;z-index:1;padding-bottom:24px}
+.opening-eyebrow{display:flex;justify-content:space-between;gap:20px;font-weight:700;letter-spacing:.085em;font-size:13px;margin-bottom:25px}
+.opening-eyebrow span{font-weight:400;color:#777;font-size:12px}
+.bachelor-opening h1{font-size:clamp(50px,6vw,112px);line-height:.95;margin:0 0 16px;font-weight:800;max-width:1300px}
+.bachelor-opening h2{font-size:clamp(25px,2.7vw,49px);font-weight:600;line-height:1.06;margin:-4px 0 18px}
+.opening-intro{max-width:840px;font-size:clamp(16px,1.28vw,23px);line-height:1.33;margin:0}
+.editorial-figure{margin:0;min-width:0}
+.editorial-figure img{display:block;width:100%;height:auto;cursor:zoom-in}
+.editorial-figure figcaption{margin-top:7px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.45;color:#777}
+.opening-art img{width:100%;max-height:780px;object-fit:cover}
+.urban-opening .opening-art{margin:24px calc(-1 * clamp(20px,3.4vw,64px)) 0}
+.urban-opening .opening-art img{min-height:360px;max-height:740px;object-fit:cover;object-position:center}
+.urban-opening .opening-art figcaption{padding:8px clamp(20px,3.4vw,64px)}
+.opening-footnote{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,7vw,150px);align-items:start;padding:22px 0 46px;border-bottom:1px solid #d2d2d2}
+.opening-footnote p{font-size:clamp(13px,1.1vw,18px);line-height:1.3;max-width:580px;margin:0}
+.opening-footnote p:last-child{text-align:right;justify-self:end}
+.bachelor-section{max-width:1920px;margin:0 auto;padding:clamp(52px,7vw,120px) clamp(20px,3.4vw,64px) clamp(55px,6vw,110px);border-bottom:1px solid #dedede}
+.research-heading{display:grid;grid-template-columns:minmax(90px,13%) 1fr;column-gap:18px;align-items:start;margin-bottom:clamp(30px,4vw,72px)}
+.section-num{font-weight:700;letter-spacing:.08em;font-size:11px;padding-top:10px}
+.research-heading h2{font-size:clamp(45px,5.3vw,100px);line-height:.94;margin:0;font-weight:700}
+.research-heading>p{grid-column:2;font-size:clamp(14px,1.23vw,20px);max-width:850px;margin:17px 0 0;line-height:1.4}
+.bachelor-section h3{font-size:clamp(27px,2.5vw,50px);line-height:1.02;font-weight:700;margin:6px 0 16px}
+.research-copy p,.guzheng-detail-copy p,.released-info p{font-size:clamp(14px,1.05vw,18px);line-height:1.48;max-width:68ch;margin:0 0 15px}
+.micro-label{font-weight:700;font-size:11px;letter-spacing:.10em;color:#777}
+.background-grid{display:grid;grid-template-columns:140px minmax(280px,1fr) minmax(320px,1.08fr);column-gap:clamp(25px,4vw,85px);align-items:start}
+.instinct-pictures{display:flex;flex-direction:column;gap:15px}.instinct-pictures img{width:100%;max-height:175px;object-fit:contain;object-position:left}
+.alley-figure img{width:100%;max-height:650px;object-fit:contain}
+.two-copy{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,7vw,135px);margin:58px 0 0 160px}
+.two-feature{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,75px);align-items:start}
+.two-feature>.research-copy{margin-bottom:22px}.two-feature>div>.editorial-figure{margin-bottom:22px}
+.classification-row{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,.7fr);gap:clamp(30px,4vw,75px);margin-top:80px;align-items:center}
+.classification-row img{object-fit:contain}
+.numbered-types{padding-left:1.3em;font-size:clamp(14px,1.03vw,18px);line-height:1.8}
+.rule-table{margin:30px 0 28px;border-top:1px solid #bdbdbd}
+.rule-table>div{display:grid;grid-template-columns:34% 1fr;gap:14px;border-bottom:1px solid #ddd;padding:13px 0;font-size:clamp(13px,.93vw,16px);line-height:1.38}
+.rule-table b{font-weight:700}
+.process-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:15px;margin-top:55px;border-top:1px solid #bbb;padding-top:24px}
+.process-strip>div{border-right:1px solid #ddd;padding-right:15px}
+.process-strip>div:last-child{border:0}
+.process-strip span{font-size:12px;color:#777}.process-strip b{display:block;margin:9px 0 5px;font-family:"Nimbus Sans Narrow","Arial Narrow",Arial,sans-serif;font-size:clamp(20px,1.65vw,31px)}
+.process-strip p{font-size:clamp(12px,.95vw,16px);line-height:1.38;margin:0}
+.urban-outcome>.editorial-figure{margin-bottom:42px}
+.urban-outcome>.editorial-figure img{max-height:610px;object-fit:contain;object-position:center}
+.urban-outcome>.editorial-figure.full-bleed img{max-height:620px}
+/* Guzheng project — black analysis spreads inspired by original Illustrator layout */
+.guzheng-page{background:#fff}
+.guzheng-opening .opening-art{margin:24px calc(-1 * clamp(20px,3.4vw,64px)) 0}
+.guzheng-opening .opening-art img{max-height:560px;object-fit:cover;object-position:center}
+.guzheng-page .showcase{margin:10px 0 42px;background:#121212}
+.guzheng-page .showcase img{max-height:780px;object-fit:contain}
+.material-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px 38px;margin:20px 0 54px;padding-top:35px;border-top:1px solid #ccc}
+.material-grid>div{border-top:1px solid #cfcfcf;padding-top:14px}
+.material-grid h3{font-size:clamp(27px,2.2vw,39px);margin:0 0 12px}
+.material-grid p{margin:0;font-size:clamp(13px,1vw,17px);line-height:1.48}
+.guzheng-page .full-bleed{margin-top:35px}
+.guzheng-page .full-bleed img{max-height:710px;object-fit:contain}
+.guzheng-dark{background:#111;color:#f3f3f3;max-width:none;border-bottom-color:#414141}
+.guzheng-dark>.research-heading,.guzheng-dark>.latent-layout,.guzheng-dark>.evaluation-layout,.guzheng-dark>.historical-grid,.guzheng-dark>.editorial-figure{max-width:1792px;margin-left:auto;margin-right:auto}
+.guzheng-dark .section-num,.guzheng-dark .micro-label{color:#b9b5a6}
+.guzheng-dark .editorial-figure figcaption{color:#aaa}
+.latent-layout,.evaluation-layout{display:grid;grid-template-columns:minmax(230px,.47fr) minmax(0,1.45fr);gap:clamp(30px,4vw,80px);align-items:start}
+.latent-figure img,.evaluation-figure img{width:100%;max-height:990px;object-fit:contain;object-position:top}
+.guzheng-detail-copy h3{margin-top:0;margin-bottom:14px;color:#fff}
+.guzheng-detail-copy p{color:#c9c9c9;line-height:1.58}
+.guzheng-detail-copy h3:not(:first-child){margin-top:50px}
+.evaluation-types{display:grid;gap:0;margin:14px 0 24px}
+.evaluation-types>span{padding:15px 5px;border-top:1px solid #555;font-size:14px}
+.evaluation-types>span:last-child{border-bottom:1px solid #555}
+.historical-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,60px);margin-bottom:36px}
+.historical-grid .research-copy{border-top:1px solid #666;padding-top:17px}
+.historical-grid h3{color:#fff}.historical-grid p{color:#ccc}
+.guzheng-final{background:#fff;color:#111}
+.release-layout{display:grid;grid-template-columns:minmax(235px,.4fr) minmax(0,1.5fr);gap:clamp(35px,4vw,80px)}
+.released-info .editorial-figure{margin:0 0 24px}.released-info .editorial-figure img{max-height:290px;object-fit:contain;object-position:left}
+.release-layout .product-figure img{max-height:960px;object-fit:contain}
+/* modal for individual diagrams, never a whole pdf page */
+.figure-modal{border:0;padding:54px 20px 20px;max-width:min(95vw,1700px);max-height:95vh;background:#fafafa;box-shadow:0 15px 70px #0007;overflow:auto}
+.figure-modal::backdrop{background:#080808dc}
+.figure-modal img{display:block;max-width:100%;height:auto;max-height:calc(95vh - 92px);width:auto;margin:auto;object-fit:contain}
+.figure-modal-close{position:sticky;top:-42px;left:100%;border:1px solid #aaa;padding:8px 15px;background:#fff;color:#111;cursor:pointer;z-index:10;float:right;font:700 12px Arial,Helvetica,sans-serif}
+.bachelor-page .next-project{max-width:1920px;margin-top:0}
+@media(max-width:1100px){.background-grid{grid-template-columns:110px 1fr 1fr;gap:26px}.two-copy{margin-left:135px}.material-grid{grid-template-columns:repeat(2,1fr)}.process-strip{grid-template-columns:repeat(3,1fr)}.historical-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.bachelor-opening{padding:26px 20px 0}.opening-eyebrow{font-size:11px;margin-bottom:28px}.opening-eyebrow span{font-size:10px;text-align:right}.bachelor-opening h1{font-size:clamp(43px,11vw,75px)}.bachelor-opening h2{font-size:clamp(22px,6vw,32px)}.opening-intro{font-size:15px}.urban-opening .opening-art,.guzheng-opening .opening-art{margin:24px -20px 0}.urban-opening .opening-art img{min-height:210px}.opening-footnote{grid-template-columns:1fr;gap:13px;padding:20px 0 35px}.opening-footnote p,.opening-footnote p:last-child{text-align:left;justify-self:start;font-size:13px}.bachelor-section{padding:55px 20px 65px}.research-heading{grid-template-columns:1fr;gap:12px;margin-bottom:30px}.research-heading h2{font-size:clamp(39px,10vw,67px)}.research-heading>p{grid-column:1;margin:7px 0 0}.background-grid{grid-template-columns:90px 1fr;gap:20px}.alley-figure{grid-column:1 / -1;margin-top:20px}.alley-figure img{max-height:390px}.two-copy{margin:35px 0 0;grid-template-columns:1fr;gap:27px}.two-feature,.classification-row,.latent-layout,.evaluation-layout,.release-layout{grid-template-columns:1fr;gap:28px}.classification-row{margin-top:40px}.classification-row .editorial-figure{order:2}.classification-row .research-copy{order:1}.material-grid,.historical-grid{grid-template-columns:1fr;gap:23px}.material-grid{margin-top:8px}.process-strip{grid-template-columns:1fr 1fr;gap:21px}.process-strip>div{border-right:0;border-top:1px solid #ddd;padding:15px 0 0}.guzheng-dark .research-heading{margin-bottom:30px}.guzheng-detail-copy h3:not(:first-child){margin-top:27px}.urban-outcome>.editorial-figure{margin-bottom:24px}.figure-modal{padding:48px 8px 10px}}
+@media(max-width:420px){.background-grid{grid-template-columns:75px 1fr;gap:17px}.process-strip{grid-template-columns:1fr 1fr}.rule-table>div{grid-template-columns:1fr;gap:4px}.opening-eyebrow{gap:10px}}
+.prompt-example{padding:16px 0 0;border-top:1px solid #ddd;margin-top:16px}
+.prompt-example span{font:700 11px Arial,Helvetica,sans-serif;letter-spacing:.08em;color:#777}
+.prompt-example p{font-size:clamp(13px,1.08vw,18px);line-height:1.4;max-width:65ch}
+
+/* v2 image integrity patch: no image clipping, CSS-only lettering outside source photos */
+.bachelor-page .editorial-figure { min-width:0; max-width:100%; overflow:visible; }
+.bachelor-page .editorial-figure img { display:block; box-sizing:border-box; width:100%; height:auto; max-width:100%; min-width:0; min-height:0; max-height:none; object-fit:contain; object-position:center; }
+.bachelor-page .opening-art img,.bachelor-page .guzheng-opening .opening-art img,.bachelor-page .urban-opening .opening-art img{height:auto;min-height:0;max-height:none;object-fit:contain;}
+.bachelor-page .two-feature,.bachelor-page .classification-row,.bachelor-page .latent-layout,.bachelor-page .evaluation-layout{min-width:0;}
+.bachelor-page .two-feature > div,.bachelor-page .classification-row > * {min-width:0;}
+.bachelor-page .source-schematic{max-width:512px!important;margin:22px auto 45px!important;background:#fff;}
+.bachelor-page .source-schematic img {width:100%;max-width:512px;height:auto;image-rendering:auto;}
+.bachelor-page .source-schematic figcaption{font-size:12px;}
+.bachelor-page .guzheng-featured-hero{margin:24px 0 24px;}
+.bachelor-page .guzheng-featured-hero img{width:100%;height:auto;max-height:none;object-fit:contain;}
+.bachelor-page .guzheng-opening .opening-art{margin:0!important;}
+.bachelor-page .guzheng-opening .source-schematic {width:min(100%,512px);}
+.bachelor-page .fieldwork-second-figure{margin-top:24px!important;}
+.bachelor-page .fieldwork-second-figure img{width:100%;height:auto;}
+.bachelor-page .editorial-figure figcaption {overflow-wrap:anywhere;word-break:normal;}
+@media(max-width:700px){.bachelor-page .guzheng-featured-hero{margin:18px 0!important}.bachelor-page .source-schematic{max-width:100%!important;margin:16px 0 24px!important}}
+
+
+/* v3: original-source guzheng images and independently editable explanatory text. */
+.guzheng-page .image-no-crop {min-width:0; max-width:100%; margin:0; overflow:visible; background:transparent}
+.guzheng-page .image-no-crop img {display:block; width:100%; max-width:100%; height:auto; max-height:none; min-height:0; object-fit:contain; object-position:center; image-rendering:auto; border:0; }
+.guzheng-page .image-no-crop figcaption {margin-top:9px; font:12px/1.4 Arial,Helvetica,sans-serif; color:#777; overflow-wrap:normal}
+.guzheng-page .guzheng-dark .image-no-crop figcaption {color:#b0b0b0}
+.guzheng-page .guzheng-opening .guzheng-timeline-media {margin:28px 0 0!important;}
+.guzheng-page .guzheng-timeline-media img {width:100%;height:auto;}
+.kitsch-background {display:grid;grid-template-columns:1fr .9fr;gap:clamp(30px,5vw,95px);padding:38px 0 65px;border-bottom:1px solid #ddd;align-items:start}
+.kitsch-background .research-copy h3 {font-size:clamp(28px,2.8vw,48px);margin:12px 0 17px;}
+.kitsch-background .research-copy p {max-width:64ch;line-height:1.55;font-size:clamp(14px,1.08vw,18px)}
+.bachelor-insight-list {padding-left:1.15em;margin:16px 0; font-size:clamp(14px,1.05vw,18px);line-height:1.52}
+.bachelor-insight-list li {margin-bottom:10px;}
+.guzheng-structure-section .original-research-columns {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,2vw,38px);margin:0 0 38px}
+.spec-note {min-width:0;border-top:1px solid #bfbfbf;padding-top:13px}
+.spec-note h3 {margin:9px 0 12px;font-size:clamp(21px,2vw,36px)}
+.spec-note p {font-size:clamp(13px,.98vw,17px);line-height:1.56;margin:0;color:#292929}
+.guzheng-structure-section .guzheng-entire-structure {margin:0 0 40px!important;}
+.guzheng-structure-section .guzheng-entire-structure img {width:100%;height:auto;max-height:none;object-fit:contain}
+.guzheng-structure-section .structure-lower-notes {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;padding-top:20px;}
+.guzheng-page .guzheng-dark .visual-with-research {max-width:1792px;margin:0 auto;display:grid;grid-template-columns:minmax(0,.34fr) minmax(0,1fr);gap:clamp(24px,2.7vw,54px);align-items:start;min-width:0}
+.guzheng-page .visual-with-research>* {min-width:0}
+.guzheng-page .original-research-text {min-width:0;max-width:100%;}
+.guzheng-page .original-research-text .research-subsection {margin:0 0 clamp(26px,2.7vw,54px);padding-top:12px;border-top:1px solid #555}
+.guzheng-page .original-research-text h3 {font-size:clamp(23px,2.2vw,37px);line-height:1.06;margin:0 0 15px;color:#fff}
+.guzheng-page .original-research-text p {font-size:clamp(13px,.98vw,16px);line-height:1.58;color:#dadada;max-width:65ch;margin:0 0 14px}
+.guzheng-page .original-research-text .side-title {margin:0 0 17px;}
+.guzheng-page .feedback-section {max-width:1792px;margin:75px auto 0;border-top:1px solid #515151;padding-top:21px}
+.guzheng-page .feedback-section>p {font-size:clamp(14px,1vw,17px);color:#ddd;max-width:100ch;line-height:1.5}
+.guzheng-page .feedback-examples {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:35px}
+.guzheng-page .feedback-examples article {border-top:1px solid #666;padding-top:17px;}
+.guzheng-page .feedback-examples h3 {color:#fff;font-size:clamp(23px,2vw,34px);margin:0 0 17px;}
+.guzheng-page .feedback-examples p {font-size:clamp(13px,.96vw,16px);line-height:1.5;color:#ccc}
+@media(max-width:1150px) {
+ .guzheng-structure-section .original-research-columns{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .guzheng-page .guzheng-dark .visual-with-research {grid-template-columns:minmax(0,.42fr) minmax(0,1fr)}
+}
+@media(max-width:760px) {
+ .kitsch-background {grid-template-columns:1fr;gap:20px;padding:25px 0 48px}
+ .guzheng-structure-section .original-research-columns {grid-template-columns:1fr;gap:20px}
+ .guzheng-structure-section .structure-lower-notes {grid-template-columns:1fr;gap:20px}
+ .guzheng-page .guzheng-dark .visual-with-research {grid-template-columns:1fr;gap:24px}
+ .guzheng-page .guzheng-dark .visual-with-research .original-research-text{order:1}
+ .guzheng-page .guzheng-dark .visual-with-research .image-no-crop{order:2}
+ .guzheng-page .feedback-examples {grid-template-columns:1fr;gap:18px}
+ .guzheng-page .feedback-section {margin-top:44px}
+}
