@@ -124,18 +124,18 @@ body { margin: 0; background: var(--paper); color: var(--ink); }
 .translation-table thead th { font-weight: 400; padding-block: 20px; }
 .translation-table tbody th { font-weight: 400; }
 .translation-table .green-highlight { background: #cae7bd; }
-.translation-method { display: grid; grid-template-columns: minmax(240px,430px) minmax(300px,800px); gap: 48px; align-items: start; margin: 70px 0 50px; position: relative; }
+.translation-method { display: grid; grid-template-columns: minmax(190px,22%) minmax(300px,800px); gap: 24px; align-items: start; margin: 40px 0 50px; position: relative; }
 .translation-method::before,.translation-method::after { content: ""; position: absolute; height: 1px; border-top: 1px dashed #777; transform-origin: left center; pointer-events: none; }
-.translation-method::before { width: 420px; left: -2px; top: -70px; transform: rotate(-27deg); }
-.translation-method::after { width: 500px; left: 185px; top: 100px; transform: rotate(-25deg); }
+.translation-method::before { width: 380px; left: 0; top: -40px; transform: rotate(-27deg); }
+.translation-method::after { width: 430px; left: 20%; top: -40px; transform: rotate(-27deg); }
 .green-process { background: #86c45f; border: 1px solid #638e4d; font-size: clamp(14px,1.05vw,19.4px); }
 .green-process div { padding: 22px 24px; border-bottom: 1px solid #638e4d; }
 .green-process div:last-child { border-bottom: 0; }
 .green-process { position: relative; }
-.green-process::after { content: ""; position: absolute; width: 86px; height: 38px; left: 40%; bottom: -39px; border-right: 1px solid #80c25d; border-bottom: 1px solid #80c25d; }
+.green-process::after { content: ""; position: absolute; width: 86px; height: 38px; left: 42%; bottom: -39px; border-right: 1px solid #80c25d; border-bottom: 1px solid #80c25d; }
 .green-process::before { content: ""; position: absolute; width: 7px; height: 7px; right: -4px; bottom: -43px; border-right: 1px solid #80c25d; border-top: 1px solid #80c25d; transform: rotate(45deg); }
 .translation-method h3 { max-width: 680px; font-size: clamp(24px, 2.1vw, 40px); line-height: 1.16; }
-.persona-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 120px); margin: 0 0 42px 24%; position: relative; }
+.persona-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 120px); margin: 0 0 42px 20%; position: relative; }
 .persona-grid::before { content: ""; position: absolute; height: 1px; left: 0; right: 0; top: 0; background: #80c25d; }
 .persona-grid::after { content: ""; position: absolute; width: 7px; height: 7px; left: calc(50% - 4px); top: -4px; border-right: 1px solid #80c25d; border-top: 1px solid #80c25d; transform: rotate(45deg); }
 .rule-block { border-top: 1px solid #80c25d; padding-top: 17px; position: relative; }
