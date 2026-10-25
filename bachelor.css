@@ -1,7 +1,7 @@
 /* Undergraduate projects — native HTML typography and individual original graphics */
-.bachelor-page{--bachelor-ink:#121212;--bachelor-border:#d3d3d3;font-family:Arial,Helvetica,sans-serif;font-size:clamp(14px,1vw,16px);line-height:1.52}
+.bachelor-page{--bachelor-ink:#121212;--bachelor-border:#d3d3d3;font-family:var(--serif);font-size:clamp(14px,1vw,16px);line-height:1.52}
 .bachelor-page .global-header,.bachelor-page .global-footer,.bachelor-page .next-project{font-family:Arial,Helvetica,sans-serif}
-.bachelor-page h1,.bachelor-page h2,.bachelor-page h3{font-family:"Nimbus Sans Narrow","Arial Narrow","Liberation Sans Narrow",Arial,sans-serif;letter-spacing:-.025em}
+.bachelor-page h1,.bachelor-page h2,.bachelor-page h3{font-family:var(--serif);letter-spacing:-.025em}
 .bachelor-opening{max-width:1920px;margin:auto;padding:45px clamp(20px,3.4vw,64px) 0}
 .opening-title{position:relative;z-index:1;padding-bottom:24px}
 .opening-eyebrow{display:flex;justify-content:space-between;gap:20px;font-weight:700;letter-spacing:.085em;font-size:13px;margin-bottom:25px}
@@ -11,7 +11,7 @@
 .opening-intro{max-width:840px;font-size:clamp(16px,1.28vw,23px);line-height:1.33;margin:0}
 .editorial-figure{margin:0;min-width:0}
 .editorial-figure img{display:block;width:100%;height:auto;cursor:zoom-in}
-.editorial-figure figcaption{margin-top:7px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.45;color:#777}
+.editorial-figure figcaption{margin-top:7px;font-family:var(--serif);font-size:11px;line-height:1.45;color:#777}
 .opening-art img{width:100%;max-height:780px;object-fit:cover}
 .urban-opening .opening-art{margin:24px calc(-1 * clamp(20px,3.4vw,64px)) 0}
 .urban-opening .opening-art img{min-height:360px;max-height:740px;object-fit:cover;object-position:center}

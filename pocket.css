@@ -149,6 +149,11 @@ body { margin: 0; background: var(--paper); color: var(--ink); }
 .module p strong { font-weight: 700; }
 .intervention-section { margin-top: 50px; }
 .intervention-section .section-subtitle, .deployment-section .section-subtitle { margin-bottom: 22px; }
+.installation-section { margin-top: 100px; }
+.installation-section .section-subtitle { margin-bottom: 36px; }
+.installation-flow { width: min(100%, 1500px); margin: 0 auto 42px; }
+.installation-flow img { display: block; width: 100%; height: auto; }
+.installation-copy { max-width: 1500px; margin: 0 auto 70px !important; }
 .project-interface { width: 76%; margin: 0 auto 35px; }
 .project-interface img { width: 100%; height: auto; display: block; }
 .section-explanation { width: min(100%,1100px); background: #e3e3e3; padding: 15px 22px; margin: 26px 0 80px !important; }
@@ -177,6 +182,9 @@ body { margin: 0; background: var(--paper); color: var(--ink); }
  .module-grid { grid-template-columns: 1fr; }
  .source-modules { margin-bottom: 55px; }
  .intervention-section { margin-top: 65px; }
+ .installation-section { margin-top: 65px; }
+ .installation-flow { margin-bottom: 28px; }
+ .installation-copy { margin-bottom: 45px !important; }
  .project-interface { width: 100%; }
  .case-grid { grid-template-columns: 1fr; gap: 32px; }
  .case-conclusion { margin: 50px 0 70px !important; }
