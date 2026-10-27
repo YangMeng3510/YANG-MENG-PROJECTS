@@ -9,6 +9,7 @@ A responsive portfolio website featuring four design-research projects. The site
 - `fictional-protest.html` — Fictional Protest
 - `urban-regeneration.html` — The Self-Organizing Regeneration of Urban Areas (2022)
 - `heming-regeneration.html` — Heming Regeneration: AI Large-Scale Guzheng Design (2023)
+- `lumamorph.html` — LumaMorph: deformable dynamic lighting through soft robotics (2023)
 
 ## File structure
 

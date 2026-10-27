@@ -1,3 +1,29 @@
+function replaceGuzhengLatentContent() {
+if (document.body.classList.contains('guzheng-page')) {
+  const latentSection = document.getElementById('guzheng-latent');
+  if (latentSection) {
+    const replacement = document.createElement('section');
+    replacement.className = 'bachelor-section guzheng-image-replacement';
+    replacement.innerHTML = [1, 2, 3, 4].map(number => `
+      <figure class="editorial-figure image-no-crop">
+        <img alt="Guzheng large model image ${number}" loading="eager" src="assets/undergrad/${number}.png"/>
+      </figure>`).join('');
+    latentSection.replaceWith(replacement);
+    let next = replacement.nextElementSibling;
+    while (next && !next.classList.contains('next-project')) {
+      const current = next;
+      next = next.nextElementSibling;
+      current.remove();
+    }
+  }
+}
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', replaceGuzhengLatentContent);
+} else {
+  replaceGuzhengLatentContent();
+}
+
 // Opens diagrams in a native browser dialog; project copy and headings remain editable HTML.
 document.querySelectorAll('.editorial-figure img').forEach(image => {
   image.tabIndex=0;

@@ -1,0 +1,14 @@
+.lumamorph-page{font-family:var(--serif);color:var(--ink)}
+.lumamorph-hero .project-hero-image img{object-position:center 58%}
+.lm-section{max-width:1920px;margin:0 auto;padding:clamp(70px,8vw,140px) clamp(23px,3.4vw,64px);border-bottom:1px solid var(--line)}
+.lm-heading{display:grid;grid-template-columns:minmax(120px,16%) 1fr;gap:22px;align-items:start;margin-bottom:clamp(35px,5vw,75px)}
+.lm-heading>span{font:11px/1.4 var(--sans);letter-spacing:.08em;color:var(--muted);padding-top:10px}
+.lm-heading h2{font:700 clamp(38px,5vw,94px)/.95 var(--serif);letter-spacing:-.045em;margin:0;max-width:1250px}
+.lm-copy-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(30px,8vw,150px);margin-left:16%;max-width:1280px}
+.lm-section p{font-size:clamp(16px,1.18vw,22px);line-height:1.45;margin:0}
+.lm-lead{max-width:920px;margin-left:16%!important;margin-bottom:45px!important}
+.lm-wide-image{margin:60px auto 0;max-width:1500px}.lm-wide-image img{display:block;width:100%;height:auto}
+.lm-gallery{display:grid;margin-left:16%;gap:30px}.lm-gallery figure,.lm-final-image{margin:0}.lm-gallery img{display:block;width:100%;height:auto}.lm-gallery-two{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1250px}.lm-gallery-three{grid-template-columns:repeat(3,minmax(0,1fr));max-width:1450px}
+.lm-dark{background:#111;color:#f3f3f3;max-width:none}.lm-dark .lm-heading,.lm-dark .lm-copy-grid,.lm-dark .lm-wide-image,.lm-dark .lm-animation{max-width:1792px;margin-left:auto;margin-right:auto}.lm-dark .lm-heading>span{color:#aaa}.lm-dark .lm-copy-grid{max-width:1280px}.lm-animation{max-width:700px;margin-top:55px}.lm-animation img{display:block;width:100%;height:auto}
+.lm-final{background:#111;color:#f3f3f3;max-width:none}.lm-final .lm-heading{max-width:1792px;margin-left:auto;margin-right:auto}.lm-final-image{max-width:1500px;margin:0 auto}.lm-final-image img{display:block;width:100%;height:auto}
+@media(max-width:720px){.lm-section{padding:60px 20px}.lm-heading{grid-template-columns:1fr;gap:10px;margin-bottom:30px}.lm-heading>span{padding-top:0}.lm-heading h2{font-size:clamp(36px,10vw,62px)}.lm-copy-grid{grid-template-columns:1fr;margin-left:0;gap:22px}.lm-lead{margin-left:0!important;margin-bottom:30px!important}.lm-gallery{margin-left:0;gap:18px}.lm-gallery-two,.lm-gallery-three{grid-template-columns:1fr}.lm-wide-image{margin-top:35px}.lm-animation{margin-top:30px}}
