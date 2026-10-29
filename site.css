@@ -29,12 +29,6 @@
 .project-entry-guzheng .project-entry-art img{object-position:center}
 .project-entry-lumamorph .project-entry-art{background:#171717}
 .project-entry-lumamorph .project-entry-art img{object-position:center 55%}
-.home-page .cover-count{font-size:0;color:transparent}
-.home-page .cover-count::after{content:"05 PROJECTS ↓";color:var(--ink);font:11px/1.2 var(--sans);letter-spacing:.08em}
-.home-page .project-entry:nth-child(1) .entry-number{font-size:0}
-.home-page .project-entry:nth-child(1) .entry-number::after{content:"01 / 05";font:11px/1.2 var(--sans)}
-.home-page .project-entry:nth-child(2) .entry-number{font-size:0}
-.home-page .project-entry:nth-child(2) .entry-number::after{content:"02 / 05";font:11px/1.2 var(--sans)}
 .pocket-hero .project-hero-image img{transform:scaleX(-1)}
 @media(max-width:1270px){.global-header{padding:0 18px}.global-header .global-links{display:none}.mobile-projects{display:block;position:relative;font:11px Arial,Helvetica,sans-serif}.mobile-projects summary{list-style:none;cursor:pointer;padding:12px 4px;display:flex;align-items:center;gap:12px;letter-spacing:.08em}.mobile-projects summary::-webkit-details-marker{display:none}.mobile-projects[open] div{position:absolute;right:0;top:calc(100% + 5px);background:white;border:1px solid #ddd;box-shadow:0 18px 45px #0002;min-width:min(85vw,310px);z-index:220;display:flex;flex-direction:column}.mobile-projects div a{font:11px Arial,Helvetica,sans-serif;letter-spacing:.035em;text-decoration:none;padding:17px 22px;border-bottom:1px solid #eee;white-space:nowrap}.mobile-projects div a:last-child{border:0}.mobile-projects div a:hover{background:#f2f2f2}}
 @media(max-width:700px){.project-index .project-entry{border-right:0!important;border-bottom:1px solid var(--line)}.project-index .project-entry:nth-child(4){border-bottom:0}.project-entry-urban h2{font-size:clamp(32px,8vw,53px)}.project-entry-guzheng h2{font-size:clamp(37px,8.8vw,60px)}.project-entry-urban .project-entry-info{min-height:235px}}
